@@ -119,3 +119,98 @@ footer {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+#contact {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+#contact h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#contact ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#contact ul li {
+    font-size: 1.1em;
+    margin: 15px 0;
+}
+
+#contact ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+#contact ul li a:hover {
+    color: #007BFF;
+}
+
+#contact ul li i {
+    margin-right: 10px;
+    font-size: 1.5em;
+    color: #007BFF;
+}
+
+#project-list {
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#project-list h2 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.project-list-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.project-list-item {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-list-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-list-item i {
+    font-size: 2.5em;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.project-list-item p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.project-list-item a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.project-list-item a:hover {
+    color: #0056b3;
+}
+
