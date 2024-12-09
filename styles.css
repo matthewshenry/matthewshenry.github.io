@@ -8,11 +8,15 @@ body {
 }
 
 header {
-    background-image: url(IMG_9113.jpg);
+    background-image: url(images/cloudsheader.jpg);
     background-size:COVER;
     color: #fff;
-    padding: 1em 0;
+    padding: 0.5em 0;
     text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
 }
 
 nav {
@@ -62,11 +66,20 @@ main section {
 }
 
 footer {
-    background-image: url(IMG_9113.jpg);
+    background-image: url(images/cloudsheader.jpg);
     background-size:COVER;
     color: #fff;
-    text-align: center;
+    text-align: right;
+    font-family: monospace;
     padding: 1em 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
 }
 
 .about-container {
@@ -101,7 +114,7 @@ footer {
     font-weight: bold;
     text-decoration: none;
     color: #fff;
-    background-color: #4201c3;
+    background-color: #4941c6;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, transform 0.2s ease;
@@ -149,13 +162,13 @@ footer {
 }
 
 #contact ul li a:hover {
-    color: #007BFF;
+    color: #4201c3;
 }
 
 #contact ul li i {
     margin-right: 10px;
-    font-size: 1.5em;
-    color: #007BFF;
+    font-size: 2em;
+    color: #4201c3;
 }
 
 #project-list {
@@ -165,7 +178,7 @@ footer {
 }
 
 #project-list h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     margin-bottom: 30px;
     color: white;
     font-weight: 600;
@@ -173,16 +186,15 @@ footer {
 
 .project-list-info {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 20px;
     padding: 0 10px;
 }
 
 .project-list-item {
-    background-color: #1e1e1e;
+    background-color: #222222;
     padding: 20px;
     border-radius: 18px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -194,7 +206,7 @@ footer {
 
 .project-list-item i {
     font-size: 2.5em;
-    color: #007BFF;
+    color: #4201c3;
     margin-bottom: 10px;
 }
 
@@ -205,12 +217,64 @@ footer {
 
 .project-list-item a {
     text-decoration: none;
-    color: #007BFF;
+    color: #4941c6;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .project-list-item a:hover {
     color: #0056b3;
+}
+
+#interests {
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #222222;
+}
+
+.section-header {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.interest-item {
+    margin-bottom: 50px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.interest-item h3 {
+    font-size: 1.8em;
+    color: #4941c6;
+    margin-bottom: 15px;
+}
+
+.interest-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.interest-content p {
+    font-size: 1.1em;
+    color: white;
+    flex: 2;
+}
+
+.interest-image {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
 }
 
