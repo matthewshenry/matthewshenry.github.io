@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Henry Matthews</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header><h1>Contact</h1></header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">About Me</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="contact-hero">
+      <h2>Let's talk!</h2>
+      <p>Whether it's a job posting, collab, or river beta...drop me a line. I'll get back to you quickly.</p>
+    </div>
+
+    <section class="contact-grid">
+      <div class="contact-card">
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="Ada Lovelace" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="ada@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Hi Henry, I loved your Immunodom project..." required></textarea>
+          </div>
+          <div class="form-actions">
+            <button class="button" type="submit">Open Email Draft</button>
+            <button class="button ghost" type="reset">Clear</button>
+          </div>
+        </form>
+      </div>
+
+      <aside class="contact-card" aria-label="Direct contact options">
+        <div class="contact-list">
+          <div class="contact-item">
+            <strong>Email</strong>
+            <a href="mailto:matthewshenry24@gmail.com">matthewshenry24@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <strong>GitHub</strong>
+            <a href="https://github.com/matthewshenry" target="_blank" rel="noopener">github.com/matthewshenry</a>
+          </div>
+          <div class="contact-item">
+            <strong>LinkedIn</strong>
+            <a href="https://www.linkedin.com/in/henry-matthews-6258a328b/" target="_blank" rel="noopener">Henry Matthews</a>
+          </div>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer><p>Thank You. I love you.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>

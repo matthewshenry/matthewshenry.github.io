@@ -1,45 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Henry Matthews - Projects</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Henry Matthews - Projects</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <h1>Projects</h1>
-    </header>
+  <header><h1>Projects</h1></header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">About Me</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+  <nav>
+    <ul>
+      <li><a href="index.html">About Me</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-    <main>
-        <section id="project-list">
-            <h2>GitHub Links:</h2>
-            <div class="project-list-info">
-                <div class="project-list-item">
-                    <p><a href="https://github.com/George5683/FEEDS/">FEEDS</a></p>
-                </div>
-                <div class="project-list-item">
-                    <p><a href="https://github.com/matthewshenry/WRMS">WRMS</a></p>
-                </div>
-                <div class="project-list-item">
-                    <p><a href="https://github.com/matthewshenry">TBD</a></p>
-                </div>
+  <main>
+    <section class="projects-wrapper">
+      <h2>A Few Notable Projects...</h2>
+      <div class="projects-rail" aria-label="Project modules (horizontal scroll)">
+        <article class="project-card">
+          <div class="project-media">
+            <img src="images/immunodom.png" alt="Immunodom desktop app results screen" loading="lazy" />
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Immunodom</h3>
+            <p class="project-desc">Immunodom is a tool that identifies and evaluates immunodominant peptides binding to HLA molecules more efficiently. By leveraging the Immune Epitope Database (IEDB) and enhancing data presentation and usability, the project seeks to streamline the research process, reduce time and labor, and ultimately contribute to actionable research outcomes in the fields of autoimmune diseases, vaccine development, cancer immunology, and infectious disease control. I am responsible for developing the new desktop version of the app, which aims to leverage the New-Gen IEDB API, reduce load times, and build on the original to become a more usable application.</p>
+            <div class="tech-chips"><span>TypeScript</span><span>React/Electron</span><span>Desktop App</span></div>
+            <div class="card-actions">
+              <a class="resume-button" href="https://github.com/matthewshenry" target="_blank" rel="noopener">Repo (Desktop Version)</a>
+              <a class="resume-button" href="https://immunodom.com" target="_blank" rel="noopener">Web Version</a>
             </div>
-        </section>
-    </main>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-media">
+            <img src="images/feeds.png" alt="Screenshot of FEEDS project UI" loading="lazy" />
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">FEEDS</h3>
+            <p class="project-desc">A multi-user Node.js/Express web app for connecting users to their local food banks. Pantry accounts can log in and update stock. User accounts can browse pantry inventories, favorite items, and receive notifications when they are restocked in their saved pantries. Runs on a Node.js/Express server with MySQL and session-based auth for multi-user access; static HTML/CSS/JS front end. I served as the Project Manager and in addition to designing and developing both the frontend and backend, I was responsible for holding weekly SCRUM and designating tasks to my teammates.</p>
+            <div class="tech-chips">
+              <span>Node.js</span><span>Express</span><span>MySQL</span><span>Web App</span>
+            </div>
+            <div class="card-actions">
+              <a class="resume-button" href="https://github.com/George5683/FEEDS/" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
 
-    <footer>
-        <p>Thank You. I love you.</p>
-    </footer>
+      </div>
+    </section>
+  </main>
 
-    <script src="script.js"></script>
+  <footer><p>Thank You. I love you.</p></footer>
+  <script src="script.js"></script>
 </body>
 </html>
